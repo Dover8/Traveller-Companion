@@ -14,6 +14,7 @@
 		B59793091F974DF200CBF4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59793071F974DF200CBF4D9 /* LaunchScreen.storyboard */; };
 		B59793141F974DF200CBF4D9 /* Traveller_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59793131F974DF200CBF4D9 /* Traveller_CompanionTests.swift */; };
 		B597931F1F974DF300CBF4D9 /* Traveller_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597931E1F974DF300CBF4D9 /* Traveller_CompanionUITests.swift */; };
+		B597932F1F98E81100CBF4D9 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597932E1F98E81100CBF4D9 /* Planet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B597931A1F974DF300CBF4D9 /* Traveller CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Traveller CompanionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B597931E1F974DF300CBF4D9 /* Traveller_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traveller_CompanionUITests.swift; sourceTree = "<group>"; };
 		B59793201F974DF300CBF4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B597932E1F98E81100CBF4D9 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B59792FD1F974DF200CBF4D9 /* Traveller Companion */ = {
 			isa = PBXGroup;
 			children = (
+				B597932D1F98E7EE00CBF4D9 /* Data Classes */,
 				B597932C1F97AA0B00CBF4D9 /* UWP */,
 				B59792FE1F974DF200CBF4D9 /* AppDelegate.swift */,
 				B59793001F974DF200CBF4D9 /* ViewController.swift */,
@@ -131,6 +134,14 @@
 			children = (
 			);
 			path = UWP;
+			sourceTree = "<group>";
+		};
+		B597932D1F98E7EE00CBF4D9 /* Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B597932E1F98E81100CBF4D9 /* Planet.swift */,
+			);
+			path = "Data Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B597932F1F98E81100CBF4D9 /* Planet.swift in Sources */,
 				B59793011F974DF200CBF4D9 /* ViewController.swift in Sources */,
 				B59792FF1F974DF200CBF4D9 /* AppDelegate.swift in Sources */,
 			);
