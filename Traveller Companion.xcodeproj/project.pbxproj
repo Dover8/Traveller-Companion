@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55CAFBE1F99FF3300F10AA3 /* UWPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CAFBD1F99FF3300F10AA3 /* UWPUtils.swift */; };
 		B59792FF1F974DF200CBF4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59792FE1F974DF200CBF4D9 /* AppDelegate.swift */; };
 		B59793011F974DF200CBF4D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59793001F974DF200CBF4D9 /* ViewController.swift */; };
 		B59793041F974DF200CBF4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59793021F974DF200CBF4D9 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B55CAFBD1F99FF3300F10AA3 /* UWPUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWPUtils.swift; sourceTree = "<group>"; };
 		B59792FB1F974DF200CBF4D9 /* Traveller Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traveller Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59792FE1F974DF200CBF4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59793001F974DF200CBF4D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		B597932C1F97AA0B00CBF4D9 /* UWP */ = {
 			isa = PBXGroup;
 			children = (
+				B55CAFBD1F99FF3300F10AA3 /* UWPUtils.swift */,
 			);
 			path = UWP;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				B597932F1F98E81100CBF4D9 /* Planet.swift in Sources */,
 				B59793011F974DF200CBF4D9 /* ViewController.swift in Sources */,
+				B55CAFBE1F99FF3300F10AA3 /* UWPUtils.swift in Sources */,
 				B59792FF1F974DF200CBF4D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
