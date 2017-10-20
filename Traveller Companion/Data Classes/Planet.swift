@@ -20,9 +20,15 @@ class Planet  {
     var Law: Int;
     var Tech: Int;
     
-    init(uwp: String) {
-        
-        
+    init?(uwp: String) {
+        if uwp.validateUWP() {
+            Starport = uwp.HexToInt(index: 0)
+        }
+        else
+        {
+            print("Error parsing UWP")
+            return nil
+        }
     }
     
 }
