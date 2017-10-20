@@ -11,18 +11,25 @@ import Foundation
 
 class Planet  {
     
-    var Starport: Int;
-    var Size: Int;
-    var Atmosphere: Int;
-    var Hydrophonics: Int;
-    var Population: Int;
-    var Government: Int;
-    var Law: Int;
-    var Tech: Int;
+    var Starport: UInt8;
+    var Size: UInt8;
+    var Atmosphere: UInt8;
+    var Hydrophonics: UInt8;
+    var Population: UInt8;
+    var Government: UInt8;
+    var Law: UInt8;
+    var Tech: UInt8;
     
     init?(uwp: String) {
         if uwp.validateUWP() {
             Starport = uwp.HexToInt(index: 0)
+            Size = uwp.HexToInt(index: 1)
+            Atmosphere = uwp.HexToInt(index: 2)
+            Hydrophonics = uwp.HexToInt(index: 3)
+            Population = uwp.HexToInt(index: 4)
+            Government = uwp.HexToInt(index: 5)
+            Law = uwp.HexToInt(index: 6)
+            Tech = uwp.HexToInt(index: 8)
         }
         else
         {

@@ -53,14 +53,9 @@ extension String {
         }
     }
     
-    func HexToInt(index: Int) -> Int {
-        if let someInt = Int(String(self[index])) {
-            return someInt
-        }
-        else
-        {
-            return 0
-        }
+    func HexToInt(index: Int) -> UInt8 {
+        let value = UInt8(String(self[index]), radix: 16)
+        return value!
     }
     
     
@@ -91,13 +86,10 @@ extension String {
 
 extension Character {
     
-    func HexToInt() -> Int {
-        if let someInt = Int(String(self)) {
-            return someInt
-        }
-        else
+    func HexToInt() -> UInt8 {
+        if let value = UInt8(String(self), radix: 16)
         {
-            return 0
+            return value
         }
     }
     
