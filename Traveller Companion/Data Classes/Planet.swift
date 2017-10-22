@@ -39,7 +39,6 @@ class Planet  {
     var Government: UInt8; // Range = 0 - 13(D)
     var Law: UInt8; // Range = 0 - 9+ (No upper limit as Government level is added to the roll in generation).
     var Tech: UInt8;
-    var TradeCodes: [TradeCode];
     
     init?(uwp: String) {
         if uwp.validateUWP() {
@@ -60,7 +59,11 @@ class Planet  {
     }
     
     func CalculateTradeCodes() -> [TradeCode] {
-        var codes = []
+        var codes: [TradeCode] = []
+        //example
+        codes.append(TradeCode.Ag)
+        
+        return codes
     }
     
 }

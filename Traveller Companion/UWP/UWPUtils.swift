@@ -87,10 +87,8 @@ extension String {
 extension Character {
     
     func HexToInt() -> UInt8 {
-        if let value = UInt8(String(self), radix: 16)
-        {
-            return value
-        }
+        let value = UInt8(String(self), radix: 16)
+        return value!
     }
     
 }
