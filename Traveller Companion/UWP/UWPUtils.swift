@@ -78,7 +78,7 @@ extension String {
         }
         
         //further validation required?
-        //maybe first character for spaceport (could be build into above regex)
+        //maybe first character for spaceport (could be built into above regex)
         
         return true
     }
