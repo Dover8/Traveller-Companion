@@ -9,13 +9,6 @@
 import Foundation
 
 extension String {
-    
-    var length: Int {
-        get {
-            return self.characters.count;
-        }
-    }
-    
         
     subscript (r: CountableClosedRange<Int>) -> String {
         let startIndex = self.index(self.startIndex, offsetBy: r.lowerBound)
@@ -61,7 +54,7 @@ extension String {
     
     func validateUWP() -> Bool {
         //validate the length
-        if self.length != 9 {
+        if self.count != 9 {
             return false
         }
         
